@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
@@ -21,20 +23,37 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
-    
         </ul>
-    
         </div>
         <style>
             .custom-bg-color {
                 background-color: rgb(0, 166, 255)
             }
         </style>
-        
+  
         </nav>
-        
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <h1>Contact Us</h1>
+        <div class="text-center">
+            <h3>Send us a message!</h3>
+            <p class="lead">We will get back to you as soon as possible</p>
+          </div>
+        <img src="images/Success.jpg" class="img-fluid" alt="Success" > 
+      
+    <div class="container">
+        <div class="row justify-content-center"> <!-- Center the form horizontally -->
+          <div class="col-md-4"> <!-- Adjust the width of the form to make it smaller -->
+            <form>
+              <div class="mb-3">
+                <label for="firsName" class="form-label">First Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
 </body>
 </html>
