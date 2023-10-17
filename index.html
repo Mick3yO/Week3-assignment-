@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+  body {
+            background-image: url('images/agency.jpg');
+            background-size: cover;
+            background-position: center -10%;
+            background-attachment:scroll;
+            background-color: aliceblue;
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            color:#ffffff;
+        }
+
+        .content-container {
+            max-width: 500px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark custom-bg-color">
-    <a class="navbar-brand" href="index.html">Insurance Pro's</a>
+    <a class="navbar-brand" href="index.html">Insurance Pros</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
             aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,17 +45,22 @@
     </div>
     <style>
         .custom-bg-color {
-            background-color: rgb(0, 166, 255)
+            background-color: rgb(0, 123, 255)
         }
-  
     </style>
-    
-
     </nav>
+    <div class="center-content">
+    <div class="content-container">
+        <h5 class="text-center">Finally a partner you can trust</h5>
+        <h1 class="text-center">You are in good hands</h1>
+        <div class="text-center">
+        <button type="button" class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
     
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <h1>Your insurance Profesionals</h1>
 </body>
 </html>
