@@ -39,13 +39,22 @@
             border-radius: 10px;
         }
              /* Flex container for additional content */
-             .flex-container {
+             .container-fluid {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             padding: 20px;
             flex-direction: row;
-            
+
+        }
+        .row {
+        display: flex;
+        text-align: center;
+        background-color: rgb(0, 123, 255);
+        padding: 25px;
+        border-radius: 10px;
+
+
         }
 
         /* Style for child items in the flex container */
@@ -99,36 +108,41 @@
         </div>
     </div>
 <h2>Our services</h2>
-    <!-- Flex container for additional content -->
-    <div class="flex-container">
-        <!-- Child item 1 -->
-        <div class="flex-item">
-            <h4>Home</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
 
-        <!-- Child item 2 -->
-        <div class="flex-item">
-            <h4>Life</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-        </div>
 
-        <!-- Child item 3 -->
-        <div class="flex-item">
-            <h4>Auto</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-
-        <!-- Child item 4 -->
-        <div class="flex-item">
-            <h4>Disability</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-3 mb-3">
+                <div class="bg-light p-3">
+                    <h4>Home</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 mb-3">
+                <div class="bg-light p-3">
+                    <h4>Life</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 mb-3">
+                <div class="bg-light p-3">
+                    <h4>Auto</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 mb-3">
+                <div class="bg-light p-3">
+                    <h4>Disability</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
         </div>
     </div>
+    
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
